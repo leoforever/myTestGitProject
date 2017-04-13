@@ -1,0 +1,84 @@
+commit 3e14cfde6c988eb817381719da67562e39aa8d7b
+Author: wu qiong <wqiongbj@cn.ibm.com>
+Date:   Thu Apr 13 17:24:47 2017 +0800
+
+    新增加2行
+
+commit ca49fc466c8c76c29635d8001a8304f139e62edb
+Author: wu qiong <wqiongbj@cn.ibm.com>
+Date:   Thu Apr 13 17:23:30 2017 +0800
+
+    新增加一行
+
+commit 3de2e483230ac0b48ac6f1e1c28897b0aed73e6a
+Merge: 6fa0616 fbb05dd
+Author: wu qiong <wqiongbj@cn.ibm.com>
+Date:   Thu Apr 13 17:19:38 2017 +0800
+
+    Merge branch 'testBranch'
+
+commit 6fa0616468ad95d9efb0e8c4745a46c54fc14e0d
+Author: wu qiong <wqiongbj@cn.ibm.com>
+Date:   Thu Apr 13 17:11:07 2017 +0800
+
+    新增加一行
+
+commit fbb05dd51c7c2161290101a1d2de44cd748dd970
+Author: wu qiong <wqiongbj@cn.ibm.com>
+Date:   Thu Apr 13 17:08:58 2017 +0800
+
+    test branch2
+
+commit 7513a9b88a731f3497cae3784ccb88c63ed3d2d0
+Author: wu qiong <wqiongbj@cn.ibm.com>
+Date:   Thu Apr 13 16:55:56 2017 +0800
+
+    add test.txt
+
+commit 9e2442c0483203d2994cb968cd06c31f0ad5a3b9
+Author: wu qiong <wqiongbj@cn.ibm.com>
+Date:   Thu Apr 13 16:48:10 2017 +0800
+
+    second
+
+commit 8c5994aa4457fc1cd814e6fa03ec08c27965f90e
+Author: wu qiong <wqiongbj@cn.ibm.com>
+Date:   Thu Apr 13 16:46:10 2017 +0800
+
+    firet
+
+commit e2d7b0da129b06b4a6adad912034962a74a97458
+Author: leoforever <404135830@qq.com>
+Date:   Thu Feb 23 18:20:23 2017 +0800
+
+    delete
+
+commit 9b4cd1be7e1b476472d693f96bdddf33c7b792c0
+Author: leoforever <404135830@qq.com>
+Date:   Thu Feb 23 18:19:27 2017 +0800
+
+    to be deleted
+
+commit 35cf8b38eaf2b40324b275ffdb2ed2b068bc824f
+Author: leoforever <404135830@qq.com>
+Date:   Thu Feb 23 18:15:57 2017 +0800
+
+    changes log
+
+commit 2735396f7905118270a7bc8b090eb0861001d119
+Author: leoforever <404135830@qq.com>
+Date:   Thu Feb 23 18:14:19 2017 +0800
+
+    changes log
+
+commit 44e8a46a8ad4faef2ba6d02469e4aa97b0b5746d
+Author: leoforever <404135830@qq.com>
+Date:   Thu Feb 23 18:02:38 2017 +0800
+
+    changes log
+
+commit f4cfcc006e58fcd120ccca16d2fa9a0271cb8fd3
+Author: leoforever <404135830@qq.com>
+Date:   Thu Feb 23 17:45:29 2017 +0800
+
+    Initial commit
