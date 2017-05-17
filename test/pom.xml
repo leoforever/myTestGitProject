@@ -28,14 +28,14 @@
 								<artifactId>cbappscan-maven-plugin</artifactId>
 								<version>1.0.6</version>
 								<configuration>
-									<username>itmbld@us.ibm.com</username>
-									<password>HybrdC1d</password>
+									<username>${env.w3user}</username>
+									<password>${env.w3password}</password>
 									<release>CloudNative</release>
 									<profile>default</profile>
-									<gsaUsername>itmbld</gsaUsername>
-									<gsaPassword>HybrdC1d</gsaPassword>
-									<sourceJarFile>/home/wu/8.1.3.1/test/target/test-0.0.1-sources.jar</sourceJarFile>
-									<outputDirectory>/gsa/rtpgsa/projects/c/cloudnative/appscan/com.ibm.perfmgmt/com.ibm.perfmgmt.synthetic.agent</outputDirectory>
+									<gsaUsername>${env.gsausr}</gsaUsername>
+									<gsaPassword>${env.gsapassword}</gsaPassword>
+									<sourceJarFile>./target/test-0.0.1-sources.jar</sourceJarFile>
+									<outputDirectory>/gsa/rtpgsa/projects/c/cloudnative/appscan/com.ibm.perfmgmt/test</outputDirectory>
 								</configuration>
 							</reportPlugin>
 						</reportPlugins>
