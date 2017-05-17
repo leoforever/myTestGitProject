@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>test</groupId>
+	<artifactId>test</artifactId>
+	<version>0.0.1</version>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>CloudNative</id>
+			<name>IBM Internal CloudNative</name>
+			<url>http://rtpgsa.ibm.com/projects/c/cloudnative/repository</url>
+		</pluginRepository>
+	</pluginRepositories>
+	<build>
+
+		<pluginManagement>
+			<plugins>
+				<!-- 构建项目站点报告插件 -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-site-plugin</artifactId>
+					<version>3.3</version>
+					<configuration>
+						<!-- 配置报告信息 -->
+						<reportPlugins>
+							<reportPlugin>
+								<groupId>com.ibm.tivoli.build</groupId>
+								<artifactId>cbappscan-maven-plugin</artifactId>
+								<version>1.0.6</version>
+								<configuration>
+									<username>itmbld@us.ibm.com</username>
+									<password>HybrdC1d</password>
+									<release>CloudNative</release>
+									<profile>default</profile>
+									<gsaUsername>itmbld</gsaUsername>
+									<gsaPassword>HybrdC1d</gsaPassword>
+									<sourceJarFile>/home/wu/8.1.3.1/test/target/test-0.0.1-sources.jar</sourceJarFile>
+									<outputDirectory>/gsa/rtpgsa/projects/c/cloudnative/appscan/com.ibm.perfmgmt/com.ibm.perfmgmt.synthetic.agent</outputDirectory>
+								</configuration>
+							</reportPlugin>
+						</reportPlugins>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+	</build>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>2.53.1</version>
+		</dependency>
+
+	</dependencies>
+	<parent>
+		<groupId>com.ibm.perfmgmt</groupId>
+		<artifactId>build.master</artifactId>
+		<version>1.0.0.0-SNAPSHOT</version>
+		<relativePath>../build.master</relativePath>
+	</parent>
+	<name>${project.artifactId}</name>
+	
+</project>
